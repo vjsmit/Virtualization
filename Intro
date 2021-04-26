@@ -1,0 +1,28 @@
+
+What is virtualization:
+  Act of creating virtual (rather than actual) version of something, including virtual computer hw paltforms, storage devices and computer nw resources.
+  
+Forms of VZ:
+  Server VZ- It is running existing OS & app inside VM 
+  Storage VZ
+  Network VZ
+  Desktop
+  IO
+  Application
+  
+Hypervisor:
+   Virtual Machine monitor (VMM) is a computer software, firmaware or hw that creates and run VM. 
+   Its HV which creates virtualization layer.
+   e.g. VMware ESXi, MS Hyper-V
+   These are pieces of sw that we load directly on our server
+   
+   Type1 HV: Loaded directly into the hw
+   Type2 HV: Loaded into an OS running on the HW
+             e.g. Workstation/Fusion/Oracle VM/Parallels
+             
+ Virtualization Mgmt Layer:
+          Single adminstrative console, where we can administer all of the these VM.
+          VML can be a single VM that's running on a HV on top of one of the Physical server
+               
+  
+  
